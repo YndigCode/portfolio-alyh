@@ -218,7 +218,7 @@ h1 {
 /*portfolio*/
 .container-portfolio {
 	position: relative;
-	width: 1000px;
+	width: 800px;
 	margin: auto;
 }
 
@@ -226,7 +226,7 @@ h1 {
 	display: inline-block;
 	background-color: #E8E8E8;
 	align-content: center;
-	padding: 50px;
+	padding: 110px;
 	margin: 20px;
 	box-shadow: 7px 7px 5px red;
 }
