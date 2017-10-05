@@ -116,7 +116,7 @@ container_box {
 
 .kort-om {
 	position: relative;
-	width: 30em;
+	width: 35em;
 	background: pink;
 	margin: 10px 62px;
 	top: -150px;
@@ -130,7 +130,6 @@ container_box {
 }
 
 .lets-connect p {
-	
 	font-size: 35px;
 	font-weight: bold;
 }
@@ -177,35 +176,35 @@ h1 {
 }
 
 
-
 /*flow 1 position*/
 .flow1 p {
 	background-color: yellow;
-	width: 40%;
-	margin-left: 375px;
+	width: 265px;
+	margin-left: 150px;
 }
 
 /*flow 1 tekst formatering*/
 .flow1 p {
-	font-size: 20px;
+	font-size: 35px;
 	font-weight: bold;
-	padding: 10px;
+}
+
+/*flow 2 container*/
+.flow2 {
+position: absolute;
 }
 
 /*flow 2 position*/
 .flow2 p {
 	background-color: yellow;
-	width: 30%;
-	margin-left: 375px;
+	width: 265px;
+	margin-left: 150px;
 }
 
 /*flow 2 tekst formatering*/
 .flow2 p {
-	font-size: 20px;
+	font-size: 35px;
 	font-weight: bold;
-	width: 5%;
-	height: 20%;
-	padding: 10px;
 }
 
 .img_bg_box {
@@ -217,18 +216,21 @@ h1 {
 
 /*portfolio*/
 .container-portfolio {
-	position: relative;
-	width: 800px;
-	margin: auto;
+	background-color: #ff931e;
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	z-index: -1;
+	text-align: center;
 }
 
 .portfolio-items {
 	display: inline-block;
-	background-color: #E8E8E8;
-	align-content: center;
-	padding: 110px;
+	background-color: black;
+	padding: 90px;
 	margin: 20px;
-	box-shadow: 7px 7px 5px red;
+	box-shadow: 7px 7px 5px #F4ECE6;
+	z-index: 1;
 }
 
 /*link hover*/
@@ -252,9 +254,70 @@ a:hover {
 .lets-connect {
 	position: relative;
 	width: 150px;
-	bottom: 140px;
+	bottom: 115px;
 	left: 150px;
 }
 
-.lets-connect p {
+
+
+
+.text-box {
+	
+}
+
+.vertical-line {
+	background-color: #48D0A0;
+	clear: both;
+	width: 0;
+	margin-left: 190px;
+	margin-top: -81px;
+	z-index: 100;
+}
+
+.quote-box p {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+	
+.vertical-line {
+	border-right: 0.75px solid black;
+	height: 89px;
+}
+
+.simple-text quote {
+	float: left;
+	margin-left: 188px;
+	margin-top: -70px;
+}
+
+.simple-text p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.air {
+	height: 1500px;
+}
+
+
+.flows {
+	position: relative;
+	width: 150px;
+	bottom: 50px;
+	left: 150px;
+}
+
+.flows p {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.et-semester {
+	position: relative;
+	background: #C8C4C4;
+	width: 1215px;
+	padding: 55px 0px;
+	left: 225px;
+	top: 83px;
 }
