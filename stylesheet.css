@@ -69,7 +69,7 @@ container_box {
 .connect {
 	position: absolute;
 	background: #51D6D6;
-	width: 1215px;
+	width: 1223px;
 	padding: 20px 0px;
 	left: 225px;
 	top: 638px;
@@ -211,7 +211,7 @@ position: absolute;
 .container-portfolio {
 	background-color: #FFEC9C;
 	position: absolute;
-	width: 100%;
+	width: 1432px;
 	height: 161px;
 	z-index: -1;
 	text-align: center;
@@ -315,6 +315,9 @@ a:hover {
 	top: 44px;
 }
 
-.footer {
-	height: 200px;
+#footer {
+	height: 50px;
+	width: 100%;
+	margin-top: 430px;
+	text-align: center;
 }
