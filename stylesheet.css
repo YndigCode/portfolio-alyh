@@ -130,6 +130,7 @@ container_box {
 }
 
 .lets-connect p {
+	
 	font-size: 35px;
 	font-weight: bold;
 }
@@ -188,8 +189,6 @@ h1 {
 .flow1 p {
 	font-size: 20px;
 	font-weight: bold;
-	width: 5%;
-	height: 20%;
 	padding: 10px;
 }
 
