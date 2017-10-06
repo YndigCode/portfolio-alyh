@@ -343,8 +343,9 @@ a:hover {
 	text-decoration: none;
 }
 
-.copyright {
-	position: absolute;
+.copyright p {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	text-align: center;
-	margin-left: 100px;
 }
