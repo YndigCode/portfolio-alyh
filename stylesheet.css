@@ -213,7 +213,7 @@ position: absolute;
 
 /*portfolio*/
 .container-portfolio {
-	background-color: #FFEC9C;
+	background-color: yellowgreen;
 	width: 1432px;
 	height: 143px;
 	z-index: -1;
@@ -310,7 +310,7 @@ a:hover {
 
 .et-semester {
 	position: relative;
-	background-color: #FFCE96;
+	background-color: yellowgreen;
 	width: 1215px;
 	padding: 55px 0px;
 	left: 225px;
