@@ -56,6 +56,10 @@ container_box {
 .foreground_box {
 }
 
+.image img {
+	width: 100%;
+}
+
 .background_box {
 	width: 900px;
 	height: 400px;
