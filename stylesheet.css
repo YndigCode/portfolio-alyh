@@ -337,3 +337,10 @@ a:hover {
 #arrow-down img {
 	width: 31px;
 }
+
+.portfolio-items a {
+	color: #ff931e;
+	font-size: 40px;
+	font: bold;
+	text-decoration: none;
+}
