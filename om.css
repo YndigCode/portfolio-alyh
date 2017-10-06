@@ -1,3 +1,181 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*background*/
+
+body {
+	background-color: #FFFAF5; 
+}
+
+
+
+/*div container box*/
+container_box {
+}
+
+/*links i navigation sat på lije række*/
+.navigation li {
+	display: inline-block;
+}
+
+/*links i navigation*/
+.navigation a {
+	display: block;
+	padding: 7px 35px 7px 35px;
+	font-size: 16px;
+	color: #ff931e;
+	text-decoration: none;
+	z-index: 100;
+}
+
+.navigation ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+
+.foreground_logo img {
+	margin: 33px 27px;
+}
+
+.container_foreground_logo {
+	width: 20%;
+	float: left;
+}
+
+.foreground_logo {
+	width: 170px;
+	height: 170px;
+	background-color: black;
+	box-shadow: 25px 25px 0px #F4ECE6;
+	margin-top: 27px;
+	margin-left: 20px;
+	z-index: 20;
+}
+
+.foreground_box {
+}
+
+.image img {
+	width: 100%;
+}
+
+.background_box {
+	width: 900px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 50px 50px 0px black;
+	position: absolute;
+	z-index: -5;
+	margin: -100px 0px 0px -100px;
+}
+
+
+.border {
+	border-color: #FF931E;
+	border-style: solid;
+	border-width: 2.5px;
+	height: 50px;
+	width: 700px;
+	padding: 107px;
+	margin-left: 470px;
+	margin-top: -200px;
+	z-index: -1;
+}
+	
+.portfolio {
+	position: relative;
+	width: 175px;
+	left: 642px;
+	bottom: 155px;
+	margin-top: -100px;
+}
+
+.kort-om {
+	position: relative;
+	width: 35em;
+	margin: 10px 62px;
+	top: -150px;
+	left: 580px;
+}
+
+.kort-om a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.lets-connect p {
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+}
+
+.name {
+	position: absolute;
+	right: 380px;
+	bottom: 441px;
+}
+
+.name {
+	font-size: 47px;
+	font-weight: 600;
+}
+
+.navigation {
+	position: fixed;
+	background: black;
+	width: 789.5px;
+	margin-top: -170px;
+	left: 650px;
+	z-index: 50;
+}
+
+
+h1 {
+	color: #EFBC8A;
+	padding-top: 50px;
+}
+
+/*box til logo*/
+.foreground_logo {
+	text-align: center;
+}
+
+
+.img_bg_box {
+	margin-left: -110px;
+	margin-top: -146px;
+	position: absolute;
+	z-index: -10;
+}
+
+
+/*link hover*/
+a:hover {
+	text-decoration: line-through;
+}
+
+
+.lets-connect {
+	position: relative;
+	width: 150px;
+	bottom: 121px;
+	left: 150px;
+}
+
+
+
+#footer {
+	height: 34px;
+	width: 100%;
+	margin-top: 430px;
+	text-align: center;
+}
+
+.bw-box {
+	background-color: white;
+	height: 400px;
+	width: 900px;
+	box-shadow: 50px 50px 0px black;
+} 

@@ -272,9 +272,7 @@ a:hover {
 }
 
 .quote-box p {
-	float: right;
-	margin-top: -15px;
-	margin-right: 79px;
+	margin-top: -110px;
 }
 	
 .vertical-line {
@@ -343,4 +341,10 @@ a:hover {
 	font-size: 16px;
 	font-weight: normal;
 	text-decoration: none;
+}
+
+.copyright {
+	position: absolute;
+	text-align: center;
+	margin-left: 100px;
 }
