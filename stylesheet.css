@@ -353,3 +353,7 @@ a:hover {
 #arrow-down p {
 	font-size: 80px;
 }
+
+.portfolio-items a:hover {
+	text-decoration: line-through;
+}
