@@ -281,13 +281,14 @@ a:hover {
 }
 
 .simple-text p {
-	float: left;
-	margin-left: 188px;
-	margin-top: -87px;
+	
+	margin-left: 50%;
+	margin-right: 49%;
+	margin-top: -72px;
 }
 
 .simple-text p {
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: bold;
 }
 
