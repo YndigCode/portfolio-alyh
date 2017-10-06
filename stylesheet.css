@@ -48,7 +48,7 @@ container_box {
 	height: 170px;
 	background-color: black;
 	box-shadow: 25px 25px 0px #F4ECE6;
-	margin-top: 25px;
+	margin-top: 27px;
 	margin-left: 20px;
 	z-index: 20;
 }
@@ -74,9 +74,9 @@ container_box {
 	position: absolute;
 	background: #51D6D6;
 	width: 1223px;
-	padding: 20px 0px;
+	padding: 15px 0px;
 	left: 225px;
-	top: 638px;
+	top: 635px;
 }
 
 .connect ul {
@@ -251,7 +251,7 @@ a:hover {
 .lets-connect {
 	position: relative;
 	width: 150px;
-	bottom: 115px;
+	bottom: 121px;
 	left: 150px;
 }
 
@@ -273,7 +273,7 @@ a:hover {
 
 .quote-box p {
 	float: right;
-	margin-top: -32px;
+	margin-top: -15px;
 	margin-right: 79px;
 }
 	
@@ -285,7 +285,7 @@ a:hover {
 .simple-text p {
 	float: left;
 	margin-left: 188px;
-	margin-top: -121px;
+	margin-top: -87px;
 }
 
 .simple-text p {
@@ -324,4 +324,16 @@ a:hover {
 	width: 100%;
 	margin-top: 430px;
 	text-align: center;
+}
+
+#arrow-down {
+	display: block;
+	position: absolute;
+	top: 731px;
+	right: 50%;
+	left: 50%;
+}
+
+#arrow-down img {
+	width: 31px;
 }
